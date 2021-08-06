@@ -13,6 +13,8 @@ header {
     position: fixed;
     top: 0px;
     left: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
 main {
@@ -26,8 +28,9 @@ main {
 }
 
 .site-title {
-    display: inline;
     font-size: 20px;
+    margin: 0px 0px;
+    height: 20px;
 }
 
 .entry-content p {
@@ -37,4 +40,43 @@ main {
 
 .entry-content .spacer-1 {
     margin-top: 30px;
+}
+
+#menu-btn svg {
+    width: 32px;
+    height: 32px;
+}
+
+#menu-btn.open .menu-open {
+    display: none;
+}
+
+#menu-btn.close .menu-close {
+    display: none;
+}
+
+#menu-btn.open .menu-content {
+    display: none;
+}
+
+#menu-btn ul {
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    margin: 0px;
+    padding: 10px 30px;
+    text-align: right;
+    background-color: #ffffff;
+    font-size: 20px;
+    width: 150px;
+}
+
+#menu-btn a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#menu-btn a:hover {
+    text-decoration: none;
+    color: #0000ff;
 }
