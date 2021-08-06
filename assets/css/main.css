@@ -1,0 +1,40 @@
+body {
+    background: #ffffff;
+    color: #ffffff;
+    font-family: Meiryo;
+}
+
+header {
+    background: #000080;
+    padding: 20px 30px;
+    width: calc(100vw - 60px);
+    height: 30px;
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+main {
+    background: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #f7f6f6;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.site-title {
+    display: inline;
+    font-size: 20px;
+}
+
+.entry-content p {
+    margin: 0px 0px;
+    font-size: 20px;
+}
+
+.entry-content .spacer-1 {
+    margin-top: 30px;
+}
