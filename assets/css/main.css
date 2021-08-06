@@ -1,0 +1,82 @@
+body {
+    background: #ffffff;
+    color: #ffffff;
+    font-family: Meiryo;
+}
+
+header {
+    background: #000080;
+    padding: 20px 30px;
+    width: calc(100vw - 60px);
+    height: 30px;
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #f7f6f6;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.site-title {
+    font-size: 20px;
+    margin: 0px 0px;
+    height: 20px;
+}
+
+.entry-content p {
+    margin: 0px 0px;
+    font-size: 20px;
+}
+
+.entry-content .spacer-1 {
+    margin-top: 30px;
+}
+
+#menu-btn svg {
+    width: 32px;
+    height: 32px;
+}
+
+#menu-btn.open .menu-open {
+    display: none;
+}
+
+#menu-btn.close .menu-close {
+    display: none;
+}
+
+#menu-btn.open .menu-content {
+    display: none;
+}
+
+#menu-btn ul {
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    margin: 0px;
+    padding: 10px 30px;
+    text-align: right;
+    background-color: #ffffff;
+    font-size: 20px;
+    width: 150px;
+}
+
+#menu-btn a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#menu-btn a:hover {
+    text-decoration: none;
+    color: #0000ff;
+}
